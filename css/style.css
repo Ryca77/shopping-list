@@ -1,0 +1,64 @@
+body {
+	max-width: 500px;
+	width: 100%;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+.main {
+	font-family: 'Shadows Into Light', cursive;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.masthead {
+	height: 75px;
+	margin: 10px;
+	text-align: center;
+	border: 1px solid red;
+}
+
+.add-stuff {
+	height: 50px;
+	margin: 10px;
+	text-align: left;
+	border: 1px solid red;
+}
+
+.add-stuff i {
+	display: inline-block;
+	float: right;
+}
+
+.need-list ul {
+	height: 200px;
+	margin: 10px;
+	font-size: 20px;
+	text-align: left;
+	list-style-type: none;
+	border: 1px solid red;
+}
+
+.need-list i {
+	display: inline-block;
+	float: right;
+	font-size: 20px;
+	letter-spacing: 10px;
+}
+
+.got-list ul {
+	height: 150px;
+	margin: 10px;
+	font-size: 20px;
+	text-align: left;
+	list-style-type: none;
+	text-decoration: line-through;
+	border: 1px solid red;
+}
+
+.got-list i {
+	display: inline-block;
+	float: right;
+	font-size: 20px;
+	letter-spacing: 10px;
+}
