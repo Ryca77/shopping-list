@@ -43,13 +43,18 @@ body {
 	display: inline-block;
 	vertical-align: middle;
 	line-height: normal;
+	margin-right: 8px;
 	font-size: 30px;
 }
 
 .add-stuff i {
 	float: right;
-	margin-top: 15px;
+	margin-top: 16px;
 	font-size: 30px;
+}
+
+.add-stuff i:hover {
+	cursor: pointer
 }
 
 .note-paper {
