@@ -2,10 +2,7 @@ $(document).ready(function() {
 	$(".add").click(function() {
 		var text = $(".stuff").val();
 		if(text.length) {
-			$('<li />', {html: text}).appendTo('ul.note-paper')
+			$('ul.note-paper').append('<li>' + text + '<i class="trash fa fa-trash" /> <i class="cart fa fa-cart-plus" /></li>')
 		}
-	})
-	$(".note-paper .li").mouseenter(function() {
-		$('.need-list i').show();
-	})
+	});
 });
