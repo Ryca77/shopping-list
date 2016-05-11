@@ -1,8 +1,8 @@
 body {
-	max-width: 500px;
+	max-width: 400px;
 	width: 100%;
 	margin: 0 auto;
-	border: 1px solid red;
+	border: 1px solid none;
 }
 
 .main {
@@ -12,53 +12,94 @@ body {
 }
 
 .masthead {
+	background-color: #000000;
 	height: 75px;
 	margin: 10px;
+	line-height: 75px;
 	text-align: center;
-	border: 1px solid red;
+	border: 2px solid #000000;
+	border-radius: 15px;
+}
+
+.masthead span {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+	font-size: 50px;
+	color: #ffffff;
 }
 
 .add-stuff {
-	height: 50px;
+	height: 60px;
 	margin: 10px;
-	text-align: left;
-	border: 1px solid red;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 60px;
+	border: 2px solid #000000;
+	border-radius: 15px;
+}
+
+.add-stuff span {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+	font-size: 30px;
 }
 
 .add-stuff i {
-	display: inline-block;
 	float: right;
+	margin-top: 15px;
+	font-size: 30px;
+}
+
+.note-paper {
+	background-image: url('../images/note-paper.png');
+	background-repeat: no-repeat;
+	background-size: 400px 325px;
 }
 
 .need-list ul {
-	height: 200px;
+	height: 250px;
 	margin: 10px;
+	padding-top: 15px;
 	font-size: 20px;
 	text-align: left;
 	list-style-type: none;
-	border: 1px solid red;
+	border: 2px solid #000000;
+	border-radius: 15px;
 }
 
 .need-list i {
 	display: inline-block;
 	float: right;
-	font-size: 20px;
+	padding-right: 25px;
+	font-size: 25px;
 	letter-spacing: 10px;
 }
 
+.shopping-cart {
+	background-image: url('../images/shopping-cart.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 400px 325px;
+}
+
 .got-list ul {
-	height: 150px;
+	height: 250px;
 	margin: 10px;
+	padding-top: 15px;
 	font-size: 20px;
 	text-align: left;
 	list-style-type: none;
 	text-decoration: line-through;
-	border: 1px solid red;
+	border: 2px solid #000000;
+	border-radius: 15px;
 }
 
 .got-list i {
 	display: inline-block;
 	float: right;
-	font-size: 20px;
+	padding-right: 25px;
+	font-size: 25px;
 	letter-spacing: 10px;
 }
