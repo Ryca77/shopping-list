@@ -82,7 +82,7 @@ body {
 	letter-spacing: 10px;
 }
 
-.need-list i:hover {
+.need-list, .got-list i:hover {
 	cursor: pointer;
 }
 
