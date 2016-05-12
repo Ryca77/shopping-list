@@ -13,4 +13,9 @@ $(document).ready(function() {
 		}
 	});
 
+	$(".note-paper, .cart").click(function() {
+		console.log('click');
+            $(".note-paper li").appendTo(".shopping-cart");
+	});
+
 });

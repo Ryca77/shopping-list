@@ -54,7 +54,7 @@ body {
 }
 
 .add-stuff i:hover {
-	cursor: pointer
+	cursor: pointer;
 }
 
 .note-paper {
@@ -80,6 +80,10 @@ body {
 	padding-right: 25px;
 	font-size: 25px;
 	letter-spacing: 10px;
+}
+
+.need-list i:hover {
+	cursor: pointer;
 }
 
 .shopping-cart {
