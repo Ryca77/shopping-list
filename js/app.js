@@ -13,18 +13,25 @@ $(document).ready(function() {
 		}
 	});
 
-	$(".cart").click(function() {
-		console.log('cart');
-			$(".note-paper li").appendTo(".shopping-cart");
+	$("body").on("click", ".cart", function() {
+  		$(this).parent("li").appendTo(".shopping-cart");
+	});
+
+	$("body").on("click", ".trash", function() {
+		$(this).parent("li").remove();
 	});
 
 	$(".trash").click(function() {
 		console.log('trash');
 	});
 
-	/*$(".note-paper,trash").on('click', 'li', function() {
-		console.log('click');
-			$(this).remove();
-	});*/
+	$(".cart").click(function() {
+		console.log('cart');
+	});
+
+	$(".note").click(function() {
+		console.log('note');
+	});
+
 
 });
