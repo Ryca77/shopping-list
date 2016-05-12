@@ -13,9 +13,18 @@ $(document).ready(function() {
 		}
 	});
 
-	$(".note-paper, .cart").click(function() {
-		console.log('click');
-            $(".note-paper li").appendTo(".shopping-cart");
+	$(".cart").click(function() {
+		console.log('cart');
+			$(".note-paper li").appendTo(".shopping-cart");
 	});
+
+	$(".trash").click(function() {
+		console.log('trash');
+	});
+
+	/*$(".note-paper,trash").on('click', 'li', function() {
+		console.log('click');
+			$(this).remove();
+	});*/
 
 });
