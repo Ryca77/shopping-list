@@ -43,7 +43,6 @@ body {
 	display: inline-block;
 	vertical-align: middle;
 	line-height: normal;
-	margin-right: 8px;
 	font-size: 30px;
 }
 
@@ -117,7 +116,7 @@ body {
 	letter-spacing: 10px;
 }
 
-@media only screen and (max-width: 405px) {
+@media only screen and (max-width: 399px) {
  	.add-stuff span {
     font-size: 22px;
   }  
