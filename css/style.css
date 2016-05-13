@@ -53,7 +53,9 @@ body {
 	font-size: 30px;
 }
 
-.add-stuff i:hover {
+.add-stuff i:hover,
+.need-list i:hover,
+.got-list i:hover {
 	cursor: pointer;
 }
 
@@ -81,10 +83,6 @@ body {
 	padding-right: 25px;
 	font-size: 25px;
 	letter-spacing: 10px;
-}
-
-.need-list, .got-list i:hover {
-	cursor: pointer;
 }
 
 .shopping-cart {

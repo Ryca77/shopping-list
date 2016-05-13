@@ -27,4 +27,9 @@ $(document).ready(function() {
 		$(this).removeClass("undo fa fa-undo").addClass("cart fa fa-cart-plus");
 	});
 
+	$(function() {
+    $(".note-paper").sortable();
+    $(".shopping-cart").sortable();
+  });
+
 });
