@@ -47,7 +47,7 @@ body {
 }
 
 .stuff {
-	width: 135px;
+	width: 165px;
 }
 
 .add-stuff i {
@@ -118,6 +118,9 @@ body {
 
 @media only screen and (max-width: 405px) {
  	.add-stuff span {
-    font-size: 20px;
-  }  
+ 		font-size: 25px;
+ 	}
+ 	.stuff {
+    width: 100px;
+	} 
 }
