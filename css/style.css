@@ -47,6 +47,10 @@ body {
 	font-size: 30px;
 }
 
+.stuff {
+	width: 135px;
+}
+
 .add-stuff i {
 	float: right;
 	margin-top: 16px;
@@ -111,4 +115,10 @@ body {
 	padding-right: 25px;
 	font-size: 25px;
 	letter-spacing: 10px;
+}
+
+@media only screen and (max-width: 405px) {
+ 	.add-stuff span {
+    font-size: 25px;
+  }  
 }
