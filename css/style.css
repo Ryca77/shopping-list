@@ -46,7 +46,7 @@ body {
 	font-size: 30px;
 }
 
-.stuff {
+.items {
 	width: 150px;
 }
 
@@ -116,11 +116,14 @@ body {
 	letter-spacing: 10px;
 }
 
-@media only screen and (max-width: 405px) {
+@media only screen and (max-width: 485px) {
  	.add-stuff span {
  		font-size: 25px;
  	}
- 	.stuff {
-    width: 100px;
-	} 
+}
+
+@media only screen and (max-width: 405px) {
+ 	.add-stuff .stuff {
+ 		display: none;
+ 	}
 }
